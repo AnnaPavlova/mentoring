@@ -9,9 +9,9 @@ var toDoList = {
     deleteTaskBtn: $('.delete-task'),
 
     listClassName: {
-        holder: ".list-group-item",
-        title: ".list-group-item-heading",
-        body: ".list-group-item-text"
+        holder: ".task-item",
+        title: ".task-header",
+        body: ".task-text"
     },
 
     modalClassName: {

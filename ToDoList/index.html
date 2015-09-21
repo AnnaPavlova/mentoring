@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div class="container">
+<div class="container wrap">
     <h1 class="text-center">ToDo List</h1>
     <section>
         <h2>New task</h2>
@@ -109,10 +109,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/template" id="task-item-template">
-    <li class="list-group-item">
-        <h4 class="list-group-item-heading"><%-title%></h4>
+    <li class="list-group-item task-item">
+        <h4 class="list-group-item-heading task-header"><%-title%></h4>
 
-        <p class="list-group-item-text"><%-body%></p>
+        <p class="list-group-item-text task-text"><%-body%></p>
         <span class="control">
             <a class="label label-warning edit" href="#" data-toggle="modal" data-target="#modal-edit">Edit</a>
             <a class="label label-danger delete" href="#" data-toggle="modal" data-target="#modal-delete">Delete</a>

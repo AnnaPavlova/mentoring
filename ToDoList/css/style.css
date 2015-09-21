@@ -1,25 +1,20 @@
+.wrap {
+    min-width: 300px;
+}
 .no-resize {
     resize: none;
-
 }
-
-.li {
+.task-item {
     position: relative;
+    list-style-position: inside;
+    display: list-item;
 }
 .control {
     position: absolute;
     top: 0;
     right: 0;
     visibility: hidden;
-
 }
-
-li:hover .control{
+.task-item:hover .control {
     visibility: visible;
-}
-
-.list-group-item {
-    list-style-position: inside;
-
-    display: list-item;
 }
