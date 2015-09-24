@@ -1,20 +1,44 @@
 .wrap {
     min-width: 300px;
 }
+
 .no-resize {
     resize: none;
 }
+
+.task-list {
+    z-index: 1;
+}
+
 .task-item {
     position: relative;
     list-style-position: inside;
     display: list-item;
+
 }
+
 .control {
     position: absolute;
     top: 0;
     right: 0;
     visibility: hidden;
 }
+
 .task-item:hover .control {
     visibility: visible;
+}
+
+.bb {
+    position: relative;
+}
+
+.suggestions-list {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.suggestion-item:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
 }
