@@ -28,7 +28,7 @@
     visibility: visible;
 }
 
-.bb {
+.title-holder {
     position: relative;
 }
 
@@ -37,6 +37,7 @@
     right: 0;
     left: 0;
     z-index: 2;
+    border: 1px solid red;
 }
 .suggestion-item:hover {
     cursor: pointer;
