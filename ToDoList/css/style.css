@@ -1,43 +1,35 @@
 .wrap {
     min-width: 300px;
 }
-
 .no-resize {
     resize: none;
 }
-
 .task-list {
     z-index: 1;
 }
-
 .task-item {
     position: relative;
     list-style-position: inside;
     display: list-item;
 
 }
-
 .control {
     position: absolute;
     top: 0;
     right: 0;
     visibility: hidden;
 }
-
 .task-item:hover .control {
     visibility: visible;
 }
-
 .title-holder {
     position: relative;
 }
-
 .suggestions-list {
     position: absolute;
     right: 0;
     left: 0;
     z-index: 2;
-    border: 1px solid red;
 }
 .suggestion-item:hover {
     cursor: pointer;
