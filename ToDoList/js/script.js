@@ -22,7 +22,7 @@ var autoSuggestionAPI = (function () {
     // configuration object that consists templates for module
     var Templates = {
         suggestionItem: [
-            '<li class="list-group-item list-group-item-info suggestion-item"><%-item%></li>'
+            '<a href="#" class="list-group-item list-group-item-info suggestion-item"><%-item%></a>'
         ].join("\n")
     };
 
@@ -435,8 +435,8 @@ var toDoListAPI = (function (autoSuggestionAPI) {
 
 
 /**
-* initialization autoSuggestionAPI module
-*/
+ * initialization autoSuggestionAPI module
+ */
 
 // fill in configuration object, collect DOM elements
 var elementsSuggestionAPI = autoSuggestionAPI.collectElements({
